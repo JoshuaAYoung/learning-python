@@ -2,13 +2,19 @@
 # Working with modules of code
 
 # import the math module, which contains features for working with mathematics
+import math
 
+print(math.sqrt(3))
 
 # import a specific part of the module so you can refer to it more easily
+from math import pi
 
+print("Pie is", pi)
 
 # import a module and give it a different name
+import random as elephantpoop
 
+print(elephantpoop.random())
 
 # the math module contains lots of pre-built functions
 
