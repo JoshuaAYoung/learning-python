@@ -28,7 +28,7 @@ print(elephantpoop.random())
 # try some of the math functions for yourself here:
 
 # Use the 3rd party tabulate module to print tabulated data:
-
+from tabulate import tabulate
 # Sample data
 data = [
   ["Product", "Price", "Stock"],
@@ -38,3 +38,4 @@ data = [
 ]
 
 # Create a formatted table
+print(tabulate(data, header="firstrow", tablefmt="fancy_grid"))
